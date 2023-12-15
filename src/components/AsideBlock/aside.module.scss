@@ -1,0 +1,130 @@
+.aside {
+  width: 400px;
+  height: 100vh;
+  border-right: 2px solid var(--secondary-color);
+  padding: 0 1rem;
+  overflow: scroll;
+  position: fixed;
+
+  .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+      margin-top: 1rem;
+      width: 100px;
+      height: 100px;
+    }
+
+    span {
+      font-size: 25px;
+      font-weight: 600;
+      margin: 0.5rem 0;
+    }
+  }
+
+  .person {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border: 2px solid var(--secondary-color);
+    border-radius: 10px;
+    padding: 0.5rem;
+
+    &_img {
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+      background-color: black;
+      margin-right: 0.5rem;
+    }
+
+    &_info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: left;
+      margin-left: 0.5rem;
+
+      &__name {
+        font-weight: 600;
+        font-size: 20px;
+      }
+    }
+  }
+
+  .reg_block {
+    display: flex;
+    flex-direction: column;
+
+    button {
+      background-color: white;
+      border: 1px solid var(--secondary-color);
+      cursor: pointer;
+      border-radius: 10px;
+      font-size: 20px;
+      font-weight: 500;
+      padding: 1rem 0;
+      width: 70%;
+      margin: 0 auto;
+      margin-top: 1rem;
+
+      &:hover {
+        background-color: var(--secondary-color);
+      }
+    }
+  }
+
+  &_menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-top: 1rem;
+
+    &__text {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    button {
+      background-color: #fff;
+      border: none;
+      font-size: 20px;
+      font-weight: 500;
+      padding: 10px 0;
+      cursor: pointer;
+      border-radius: 5px;
+
+      &:hover {
+        background-color: var(--secondary-color);
+      }
+    }
+  }
+
+  &_exit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+      background-color: #fff;
+      border: 1px solid var(--secondary-color);
+      font-size: 20px;
+      font-weight: 500;
+      padding: 15px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-top: 2rem;
+
+      &:hover {
+        background-color: #feebeb;
+      }
+    }
+  }
+}
+
+.sample {
+  background-color: red;
+}

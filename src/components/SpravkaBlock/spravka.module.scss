@@ -1,0 +1,26 @@
+h3 {
+  text-align: center;
+  margin-bottom: 2rem !important;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button_inputs {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  .alert {
+    position: absolute !important;
+    top: 480px;
+    left: 0px;
+    right: 0px;
+  }
+}

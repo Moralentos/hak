@@ -1,0 +1,27 @@
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &_btn {
+    border: none;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: 20;
+    padding: 15px 10px;
+    cursor: pointer;
+    margin-top: 2rem;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: var(--secondary-color);
+    }
+  }
+}
